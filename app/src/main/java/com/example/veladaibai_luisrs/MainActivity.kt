@@ -23,7 +23,8 @@ class MainActivity : AppCompatActivity() {
         val btnAccion = findViewById<Button>(R.id.btnAccion)
 
         btnAccion.setOnClickListener {
-            Toast.makeText(this, "Todavía no está implementado", Toast.LENGTH_SHORT).show()
+            val intent = android.content.Intent(this, DetailActivity::class.java)
+            startActivity(intent)
         }
     }
 }

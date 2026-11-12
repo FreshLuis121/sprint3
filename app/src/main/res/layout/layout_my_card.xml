@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="#E0E0E0"
+                android:contentDescription="Icono de perfil"
+                android:src="@android:drawable/ic_menu_gallery" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_marginStart="16dp">
+
+                <TextView
+                    android:id="@+id/tvCardTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:textColor="#000000"
+                    tools:text="Encabezado o título" />
+
+                <TextView
+                    android:id="@+id/tvCardSubtitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    tools:text="Subtítulo" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="Opciones"
+                android:src="@android:drawable/ic_menu_more" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/ivCardImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#E0F7FA"
+            android:scaleType="centerCrop"
+            android:contentDescription="Imagen principal de la tarjeta" />
+
+        <TextView
+            android:id="@+id/tvCardDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:textColor="#333333"
+            android:textSize="14sp"
+            tools:text="Esta es una breve descripción sobre la Card." />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingHorizontal="16dp"
+            android:paddingBottom="16dp">
+
+            <Button
+                android:id="@+id/btnAction1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Acción"
+                android:backgroundTint="#006064"
+                android:textColor="#FFFFFF"
+                android:layout_marginEnd="8dp" />
+
+            <Button
+                android:id="@+id/btnAction2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Acción"
+                style="?attr/materialButtonOutlinedStyle"
+                android:textColor="#006064" />
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
