@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">VeladaIbai_LuisRS</string>
+    <string name="titulo_velada">La Velada del Año 2027</string>
+    <string name="subtitulo_velada">El mayor evento de boxeo de Twitch organizado por Ibai Llanos.</string>
+    <string name="boton_accion">Comprar Entradas</string>
+    <string name="desc_img_velada">Cartel promocional de la Velada del Año 2027 de Ibai Llanos</string>
 </resources>
