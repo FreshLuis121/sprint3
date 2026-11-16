@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">VeladaIbai_LuisRS</string>
+    <string name="desc_img_velada">Cartel oficial de La Velada del Año 2027</string>
+    <string name="titulo_velada">La Velada del Año 2027</string>
+    <string name="subtitulo_velada">El mayor evento de boxeo y entretenimiento del año</string>
+    <string name="boton_accion">Comprar entradas</string>
+    <string name="boton_ir_card">Ver detalles del evento</string>
+    <string name="toast_no_implementado">Todavía no está implementado</string>
+    <string name="desc_avatar_card">Avatar del organizador</string>
+    <string name="desc_img_card">Imagen destacada del evento</string>
+    <string name="btn_secundario_card">Más info</string>
+    <string name="btn_principal_card">Ver combates</string>
+</resources>
